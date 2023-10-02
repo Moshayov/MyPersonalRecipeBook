@@ -4,14 +4,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyPersonalRecipeBook", "MyPersonalRecipeBook.csproj", "{870A4635-A4FD-4296-A3A4-9D2A82EA7402}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D05306F8-1198-45D4-95B3-A9E439E26A35} = {D05306F8-1198-45D4-95B3-A9E439E26A35}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL", "..\BL\BL.csproj", "{C8E11235-CE51-4CF7-8E26-0B1D0A7CCCF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BL", "..\BL\BL.csproj", "{C8E11235-CE51-4CF7-8E26-0B1D0A7CCCF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "..\Dal\DAL.csproj", "{CEB8DA72-D92B-436B-A6CA-6F93C25BD306}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "..\Dal\DAL.csproj", "{CEB8DA72-D92B-436B-A6CA-6F93C25BD306}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP", "..\DP\DP.csproj", "{D7FE4363-2F94-4563-B853-32D09ABB916E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP", "..\DP\DP.csproj", "{D7FE4363-2F94-4563-B853-32D09ABB916E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "display sysetem", "..\display sysetem\display sysetem.csproj", "{D05306F8-1198-45D4-95B3-A9E439E26A35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "display sysetem", "..\display sysetem\display sysetem.csproj", "{D05306F8-1198-45D4-95B3-A9E439E26A35}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
